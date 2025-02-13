@@ -1,7 +1,7 @@
 import { Text, View } from "react-native";
 import TaskList from "@/components/TaskList";
 
-export default function NotFound() {
+export default function Index() {
     return (
         <View
             style={{
@@ -10,7 +10,7 @@ export default function NotFound() {
                 alignItems: "center",
             }}
         >
-            <Text>The page your looking for doesn't exist!</Text>
+            <Text>This is cool app</Text>
         </View>
     );
 }
